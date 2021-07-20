@@ -1,0 +1,7 @@
+/.idea/
+/.gradle/
+/build/
+/*/build/
+/*/.gradle/
+# Bevat momenteel een secret
+/parlio-authorization-server/src/main/resources/application.yml
