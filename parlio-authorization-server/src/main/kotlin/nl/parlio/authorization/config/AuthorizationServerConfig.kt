@@ -94,6 +94,8 @@ class AuthorizationServerConfig {
         return OAuth2AuthorizationServerConfiguration.jwtDecoder(jwkSource)
     }
 
+
+
     @Bean
     fun providerSettings(): ProviderSettings {
         return ProviderSettings().issuer("http://localdev:9000")
